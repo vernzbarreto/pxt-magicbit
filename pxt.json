@@ -1,0 +1,28 @@
+{
+    "name": "magicbit",
+    "version": "1.0.0",
+    "description": "Emakefun magicbit expansion board",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:kittenbot/pxt-neopixel#v0.6.13"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h",
+        "_locales/zh/magicbit-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
